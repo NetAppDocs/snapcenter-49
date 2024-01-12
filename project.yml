@@ -8,6 +8,8 @@ settings:
     harmony_enabled: true
   versions:
     - version-number: "4.9"
+      url: /snapcenter-49
+    - version-number: "5.0"
       url: /snapcenter
     - version-number: "4.8"
       url: /snapcenter-48
