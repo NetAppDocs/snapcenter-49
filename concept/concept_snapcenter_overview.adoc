@@ -100,7 +100,7 @@ The SnapCenter platform is based on a multitiered architecture that includes a c
 
 SnapCenter supports multisite data center. The SnapCenter Server and the plug-in host can be at different geographical locations.
 
-image::../media/snapcenter_architecture.gif[]
+image::../media/snapcenter_architecture.gif[architecture of SnapCenter]
 
 == SnapCenter components
 
