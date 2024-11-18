@@ -123,7 +123,7 @@ NOTE: The trial license (serial number ending with 50) cannot be deleted using t
 
 . In the left navigation pane, select *Settings*.
 . In the Settings page, select *Software*.
-. In the License section of the Software page, select *Add* (image:../media/add_policy_from_resourcegroup.gif[A plus icon]).
+. In the License section of the Software page, select *Add*.
 . In the Add SnapCenter License wizard, select one of the following methods to obtain the license you want to add:
 +
 |===
