@@ -19,7 +19,7 @@ Attach one or more policies to the resource group to define the type of data pro
 
 The following image illustrates the relationship between resources, resource groups, and policies for databases:
 
-image::../media/sco_resourcegroup_policy.gif[]
+image::../media/sco_resourcegroup_policy.gif[resource group policy]
 
 .Steps
 
