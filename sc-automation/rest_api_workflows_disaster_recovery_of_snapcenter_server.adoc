@@ -31,17 +31,15 @@ For example, `10.225.81.35 SCServer1`
 +
 The server etc/host entries will not be restored. You can restore it manually from the DR backup folder.
 
-NOTE: For an F5 setup, restore operation is performed as stand-alone, you should run a set of commands to create the F5 again. See, Link: https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/How_to_Migrate_SnapCenter_migrate_to_another_Server[How to migrate SnapCenter to another server^]
+** After DR restore, the host will be added but you should install the plug-in manually.
 
-NOTE: After DR restore, the host will be added but you should install the plug-in manually.
+** Repository backup schedule will be restored only if you install the SnapCenter Plug-in for Windows and attach NetApp LUN to the server machine.
 
-NOTE: Repository backup schedule will be restored only if you install the SnapCenter Plug-in for Windows and attach NetApp LUN to the server machine.
+** If the DLLs are corrupt, you can attempt to repair SnapCenter Server or correct the faulty installation.
 
-NOTE: If the DLLs are corrupt, you can attempt to repair SnapCenter Server or correct the faulty installation.
+** If NSM or config files are corrupt, you can uninstall and reinstall the SnapCenter Server with the same version.
 
-NOTE: If NSM or config files are corrupt, you can uninstall and reinstall the SnapCenter Server with the same version.
-
-NOTE: If the VM is corrupt, bring up another VM or a machine with the same name and install SnapCenter Server with the same version.
+** If the VM is corrupt, bring up another VM or a machine with the same name and install SnapCenter Server with the same version.
 
 == REST API supported for disaster recovery of SnapCenter Server
 
